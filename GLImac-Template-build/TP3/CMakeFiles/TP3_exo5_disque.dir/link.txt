@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP3_exo5_disque.dir/exo5_disque.cpp.o  -o TP3_exo5_disque ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 

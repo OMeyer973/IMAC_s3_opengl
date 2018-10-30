@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP4_exo2_rotation.dir/exo2_rotation.cpp.o  -o TP4_exo2_rotation ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 
