@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/olivier/Documents/openGL/GLImac-Template/TP3/exo2_triangle_couleurs.cpp" "/home/olivier/Documents/openGL/GLImac-Template-build/TP3/CMakeFiles/TP3_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.o"
+  "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP3/exo2_triangle_couleurs.cpp" "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP3/CMakeFiles/TP3_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/SDL"
-  "/home/olivier/Documents/openGL/GLImac-Template/glimac/include"
-  "/home/olivier/Documents/openGL/GLImac-Template/third-party/include"
+  "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/include"
+  "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/third-party/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/olivier/Documents/openGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
+  "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

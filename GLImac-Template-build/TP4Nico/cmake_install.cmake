@@ -1,4 +1,4 @@
-# Install script for directory: /home/olivier/Documents/openGL/GLImac-Template/TP4Nico
+# Install script for directory: /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4Nico
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

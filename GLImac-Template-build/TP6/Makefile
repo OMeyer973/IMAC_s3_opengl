@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/olivier/Documents/openGL/GLImac-Template
+CMAKE_SOURCE_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/olivier/Documents/openGL/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles /home/olivier/Documents/openGL/GLImac-Template-build/TP6/CMakeFiles/progress.marks
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles 0
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP6/CMakeFiles/progress.marks
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/clean
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/preinstall
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/preinstall
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TP6/CMakeFiles/TP6_exo1_sphere.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo1_sphere.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo1_sphere.dir/rule
 .PHONY : TP6/CMakeFiles/TP6_exo1_sphere.dir/rule
 
 # Convenience name for target.
@@ -122,8 +122,23 @@ TP6_exo1_sphere: TP6/CMakeFiles/TP6_exo1_sphere.dir/rule
 
 # fast build rule for target.
 TP6_exo1_sphere/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/build
 .PHONY : TP6_exo1_sphere/fast
+
+# Convenience name for target.
+TP6/CMakeFiles/TP6_exo2_lune.dir/rule:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+.PHONY : TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+
+# Convenience name for target.
+TP6_exo2_lune: TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+
+.PHONY : TP6_exo2_lune
+
+# fast build rule for target.
+TP6_exo2_lune/fast:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/build
+.PHONY : TP6_exo2_lune/fast
 
 exo1_sphere.o: exo1_sphere.cpp.o
 
@@ -131,7 +146,7 @@ exo1_sphere.o: exo1_sphere.cpp.o
 
 # target to build an object file
 exo1_sphere.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/exo1_sphere.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/exo1_sphere.cpp.o
 .PHONY : exo1_sphere.cpp.o
 
 exo1_sphere.i: exo1_sphere.cpp.i
@@ -140,7 +155,7 @@ exo1_sphere.i: exo1_sphere.cpp.i
 
 # target to preprocess a source file
 exo1_sphere.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/exo1_sphere.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/exo1_sphere.cpp.i
 .PHONY : exo1_sphere.cpp.i
 
 exo1_sphere.s: exo1_sphere.cpp.s
@@ -149,8 +164,35 @@ exo1_sphere.s: exo1_sphere.cpp.s
 
 # target to generate assembly for a file
 exo1_sphere.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/exo1_sphere.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/exo1_sphere.cpp.s
 .PHONY : exo1_sphere.cpp.s
+
+exo2_lune.o: exo2_lune.cpp.o
+
+.PHONY : exo2_lune.o
+
+# target to build an object file
+exo2_lune.cpp.o:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/exo2_lune.cpp.o
+.PHONY : exo2_lune.cpp.o
+
+exo2_lune.i: exo2_lune.cpp.i
+
+.PHONY : exo2_lune.i
+
+# target to preprocess a source file
+exo2_lune.cpp.i:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/exo2_lune.cpp.i
+.PHONY : exo2_lune.cpp.i
+
+exo2_lune.s: exo2_lune.cpp.s
+
+.PHONY : exo2_lune.s
+
+# target to generate assembly for a file
+exo2_lune.cpp.s:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/exo2_lune.cpp.s
+.PHONY : exo2_lune.cpp.s
 
 # Help Target
 help:
@@ -159,11 +201,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... TP6_exo1_sphere"
 	@echo "... edit_cache"
+	@echo "... TP6_exo1_sphere"
+	@echo "... TP6_exo2_lune"
 	@echo "... exo1_sphere.o"
 	@echo "... exo1_sphere.i"
 	@echo "... exo1_sphere.s"
+	@echo "... exo2_lune.o"
+	@echo "... exo2_lune.i"
+	@echo "... exo2_lune.s"
 .PHONY : help
 
 
@@ -175,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

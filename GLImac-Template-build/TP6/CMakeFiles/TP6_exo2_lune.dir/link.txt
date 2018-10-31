@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP6_exo2_lune.dir/exo2_lune.cpp.o  -o TP6_exo2_lune ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 

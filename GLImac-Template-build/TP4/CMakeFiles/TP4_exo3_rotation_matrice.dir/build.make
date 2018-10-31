@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/olivier/Documents/openGL/GLImac-Template
+CMAKE_SOURCE_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/olivier/Documents/openGL/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build
 
 # Include any dependencies generated for this target.
 include TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/depend.make
@@ -58,17 +58,17 @@ include TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/progress.make
 include TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/flags.make
 
 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o: TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/flags.make
-TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o: /home/olivier/Documents/openGL/GLImac-Template/TP4/exo3_rotation_matrice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o"
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o -c /home/olivier/Documents/openGL/GLImac-Template/TP4/exo3_rotation_matrice.cpp
+TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o: /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4/exo3_rotation_matrice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o"
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o -c /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4/exo3_rotation_matrice.cpp
 
 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.i"
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olivier/Documents/openGL/GLImac-Template/TP4/exo3_rotation_matrice.cpp > CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4/exo3_rotation_matrice.cpp > CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.i
 
 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.s"
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olivier/Documents/openGL/GLImac-Template/TP4/exo3_rotation_matrice.cpp -o CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4/exo3_rotation_matrice.cpp -o CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.s
 
 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o.requires:
 
@@ -97,8 +97,8 @@ TP4/TP4_exo3_rotation_matrice: /usr/lib/x86_64-linux-gnu/libGL.so
 TP4/TP4_exo3_rotation_matrice: /usr/lib/x86_64-linux-gnu/libGLU.so
 TP4/TP4_exo3_rotation_matrice: /usr/lib/x86_64-linux-gnu/libGLEW.so
 TP4/TP4_exo3_rotation_matrice: TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TP4_exo3_rotation_matrice"
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP4_exo3_rotation_matrice.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TP4_exo3_rotation_matrice"
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP4_exo3_rotation_matrice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build: TP4/TP4_exo3_rotation_matrice
@@ -110,10 +110,10 @@ TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/requires: TP4/CMakeFiles/TP4_exo3_r
 .PHONY : TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/requires
 
 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/clean:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4 && $(CMAKE_COMMAND) -P CMakeFiles/TP4_exo3_rotation_matrice.dir/cmake_clean.cmake
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4 && $(CMAKE_COMMAND) -P CMakeFiles/TP4_exo3_rotation_matrice.dir/cmake_clean.cmake
 .PHONY : TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/clean
 
 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/depend:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/olivier/Documents/openGL/GLImac-Template /home/olivier/Documents/openGL/GLImac-Template/TP4 /home/olivier/Documents/openGL/GLImac-Template-build /home/olivier/Documents/openGL/GLImac-Template-build/TP4 /home/olivier/Documents/openGL/GLImac-Template-build/TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/depend
 

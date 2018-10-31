@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/olivier/Documents/openGL/GLImac-Template
+CMAKE_SOURCE_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/olivier/Documents/openGL/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles /home/olivier/Documents/openGL/GLImac-Template-build/TP4Nico/CMakeFiles/progress.marks
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles 0
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico/CMakeFiles/progress.marks
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/clean
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/preinstall
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/preinstall
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/rule
 .PHONY : TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ TP4Nico_exo2_triangleGenerique: TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGeneriqu
 
 # fast build rule for target.
 TP4Nico_exo2_triangleGenerique/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build
 .PHONY : TP4Nico_exo2_triangleGenerique/fast
 
 # Convenience name for target.
 TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/rule
 .PHONY : TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ TP4Nico_SDLtemplate: TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/rule
 
 # fast build rule for target.
 TP4Nico_SDLtemplate/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build.make TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build.make TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build
 .PHONY : TP4Nico_SDLtemplate/fast
 
 # Convenience name for target.
 TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/rule
 .PHONY : TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ TP4Nico_exo1_triangleShader: TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/
 
 # fast build rule for target.
 TP4Nico_exo1_triangleShader/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build
 .PHONY : TP4Nico_exo1_triangleShader/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
@@ -161,7 +161,7 @@ SDLtemplate.o: SDLtemplate.cpp.o
 
 # target to build an object file
 SDLtemplate.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build.make TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/SDLtemplate.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build.make TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/SDLtemplate.cpp.o
 .PHONY : SDLtemplate.cpp.o
 
 SDLtemplate.i: SDLtemplate.cpp.i
@@ -170,7 +170,7 @@ SDLtemplate.i: SDLtemplate.cpp.i
 
 # target to preprocess a source file
 SDLtemplate.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build.make TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build.make TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/SDLtemplate.cpp.i
 .PHONY : SDLtemplate.cpp.i
 
 SDLtemplate.s: SDLtemplate.cpp.s
@@ -179,7 +179,7 @@ SDLtemplate.s: SDLtemplate.cpp.s
 
 # target to generate assembly for a file
 SDLtemplate.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build.make TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/build.make TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
 exo1_triangleShader.o: exo1_triangleShader.cpp.o
@@ -188,7 +188,7 @@ exo1_triangleShader.o: exo1_triangleShader.cpp.o
 
 # target to build an object file
 exo1_triangleShader.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/exo1_triangleShader.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/exo1_triangleShader.cpp.o
 .PHONY : exo1_triangleShader.cpp.o
 
 exo1_triangleShader.i: exo1_triangleShader.cpp.i
@@ -197,7 +197,7 @@ exo1_triangleShader.i: exo1_triangleShader.cpp.i
 
 # target to preprocess a source file
 exo1_triangleShader.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/exo1_triangleShader.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/exo1_triangleShader.cpp.i
 .PHONY : exo1_triangleShader.cpp.i
 
 exo1_triangleShader.s: exo1_triangleShader.cpp.s
@@ -206,7 +206,7 @@ exo1_triangleShader.s: exo1_triangleShader.cpp.s
 
 # target to generate assembly for a file
 exo1_triangleShader.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/exo1_triangleShader.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/exo1_triangleShader.cpp.s
 .PHONY : exo1_triangleShader.cpp.s
 
 exo2_triangleGenerique.o: exo2_triangleGenerique.cpp.o
@@ -215,7 +215,7 @@ exo2_triangleGenerique.o: exo2_triangleGenerique.cpp.o
 
 # target to build an object file
 exo2_triangleGenerique.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o
 .PHONY : exo2_triangleGenerique.cpp.o
 
 exo2_triangleGenerique.i: exo2_triangleGenerique.cpp.i
@@ -224,7 +224,7 @@ exo2_triangleGenerique.i: exo2_triangleGenerique.cpp.i
 
 # target to preprocess a source file
 exo2_triangleGenerique.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.i
 .PHONY : exo2_triangleGenerique.cpp.i
 
 exo2_triangleGenerique.s: exo2_triangleGenerique.cpp.s
@@ -233,7 +233,7 @@ exo2_triangleGenerique.s: exo2_triangleGenerique.cpp.s
 
 # target to generate assembly for a file
 exo2_triangleGenerique.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build.make TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.s
 .PHONY : exo2_triangleGenerique.cpp.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/olivier/Documents/openGL/GLImac-Template
+CMAKE_SOURCE_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/olivier/Documents/openGL/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles /home/olivier/Documents/openGL/GLImac-Template-build/TP4/CMakeFiles/progress.marks
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles 0
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4/CMakeFiles/progress.marks
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/clean
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/preinstall
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/preinstall
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TP4/CMakeFiles/TP4_mandelbrot.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_mandelbrot.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_mandelbrot.dir/rule
 .PHONY : TP4/CMakeFiles/TP4_mandelbrot.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ TP4_mandelbrot: TP4/CMakeFiles/TP4_mandelbrot.dir/rule
 
 # fast build rule for target.
 TP4_mandelbrot/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_mandelbrot.dir/build.make TP4/CMakeFiles/TP4_mandelbrot.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_mandelbrot.dir/build.make TP4/CMakeFiles/TP4_mandelbrot.dir/build
 .PHONY : TP4_mandelbrot/fast
 
 # Convenience name for target.
 TP4/CMakeFiles/TP4_exo1.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo1.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo1.dir/rule
 .PHONY : TP4/CMakeFiles/TP4_exo1.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ TP4_exo1: TP4/CMakeFiles/TP4_exo1.dir/rule
 
 # fast build rule for target.
 TP4_exo1/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo1.dir/build.make TP4/CMakeFiles/TP4_exo1.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo1.dir/build.make TP4/CMakeFiles/TP4_exo1.dir/build
 .PHONY : TP4_exo1/fast
 
 # Convenience name for target.
 TP4/CMakeFiles/TP4_exo2_rotation.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo2_rotation.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo2_rotation.dir/rule
 .PHONY : TP4/CMakeFiles/TP4_exo2_rotation.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ TP4_exo2_rotation: TP4/CMakeFiles/TP4_exo2_rotation.dir/rule
 
 # fast build rule for target.
 TP4_exo2_rotation/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo2_rotation.dir/build.make TP4/CMakeFiles/TP4_exo2_rotation.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo2_rotation.dir/build.make TP4/CMakeFiles/TP4_exo2_rotation.dir/build
 .PHONY : TP4_exo2_rotation/fast
 
 # Convenience name for target.
 TP4/CMakeFiles/TP4_SDLtemplate.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_SDLtemplate.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_SDLtemplate.dir/rule
 .PHONY : TP4/CMakeFiles/TP4_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ TP4_SDLtemplate: TP4/CMakeFiles/TP4_SDLtemplate.dir/rule
 
 # fast build rule for target.
 TP4_SDLtemplate/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/build
 .PHONY : TP4_SDLtemplate/fast
 
 # Convenience name for target.
 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/rule
 .PHONY : TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ TP4_exo3_rotation_matrice: TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/rule
 
 # fast build rule for target.
 TP4_exo3_rotation_matrice/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build.make TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build.make TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build
 .PHONY : TP4_exo3_rotation_matrice/fast
 
 # Convenience name for target.
 TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/rule
 .PHONY : TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ TP4_exo4_plusieur_triangles: TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/rule
 
 # fast build rule for target.
 TP4_exo4_plusieur_triangles/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build.make TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build.make TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build
 .PHONY : TP4_exo4_plusieur_triangles/fast
 
 # Convenience name for target.
 TP4/CMakeFiles/TP4_exo5_texture.dir/rule:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo5_texture.dir/rule
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_exo5_texture.dir/rule
 .PHONY : TP4/CMakeFiles/TP4_exo5_texture.dir/rule
 
 # Convenience name for target.
@@ -212,7 +212,7 @@ TP4_exo5_texture: TP4/CMakeFiles/TP4_exo5_texture.dir/rule
 
 # fast build rule for target.
 TP4_exo5_texture/fast:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo5_texture.dir/build.make TP4/CMakeFiles/TP4_exo5_texture.dir/build
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo5_texture.dir/build.make TP4/CMakeFiles/TP4_exo5_texture.dir/build
 .PHONY : TP4_exo5_texture/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
@@ -221,7 +221,7 @@ SDLtemplate.o: SDLtemplate.cpp.o
 
 # target to build an object file
 SDLtemplate.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/SDLtemplate.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/SDLtemplate.cpp.o
 .PHONY : SDLtemplate.cpp.o
 
 SDLtemplate.i: SDLtemplate.cpp.i
@@ -230,7 +230,7 @@ SDLtemplate.i: SDLtemplate.cpp.i
 
 # target to preprocess a source file
 SDLtemplate.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/SDLtemplate.cpp.i
 .PHONY : SDLtemplate.cpp.i
 
 SDLtemplate.s: SDLtemplate.cpp.s
@@ -239,7 +239,7 @@ SDLtemplate.s: SDLtemplate.cpp.s
 
 # target to generate assembly for a file
 SDLtemplate.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
 exo1.o: exo1.cpp.o
@@ -248,7 +248,7 @@ exo1.o: exo1.cpp.o
 
 # target to build an object file
 exo1.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo1.dir/build.make TP4/CMakeFiles/TP4_exo1.dir/exo1.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo1.dir/build.make TP4/CMakeFiles/TP4_exo1.dir/exo1.cpp.o
 .PHONY : exo1.cpp.o
 
 exo1.i: exo1.cpp.i
@@ -257,7 +257,7 @@ exo1.i: exo1.cpp.i
 
 # target to preprocess a source file
 exo1.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo1.dir/build.make TP4/CMakeFiles/TP4_exo1.dir/exo1.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo1.dir/build.make TP4/CMakeFiles/TP4_exo1.dir/exo1.cpp.i
 .PHONY : exo1.cpp.i
 
 exo1.s: exo1.cpp.s
@@ -266,7 +266,7 @@ exo1.s: exo1.cpp.s
 
 # target to generate assembly for a file
 exo1.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo1.dir/build.make TP4/CMakeFiles/TP4_exo1.dir/exo1.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo1.dir/build.make TP4/CMakeFiles/TP4_exo1.dir/exo1.cpp.s
 .PHONY : exo1.cpp.s
 
 exo2_rotation.o: exo2_rotation.cpp.o
@@ -275,7 +275,7 @@ exo2_rotation.o: exo2_rotation.cpp.o
 
 # target to build an object file
 exo2_rotation.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo2_rotation.dir/build.make TP4/CMakeFiles/TP4_exo2_rotation.dir/exo2_rotation.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo2_rotation.dir/build.make TP4/CMakeFiles/TP4_exo2_rotation.dir/exo2_rotation.cpp.o
 .PHONY : exo2_rotation.cpp.o
 
 exo2_rotation.i: exo2_rotation.cpp.i
@@ -284,7 +284,7 @@ exo2_rotation.i: exo2_rotation.cpp.i
 
 # target to preprocess a source file
 exo2_rotation.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo2_rotation.dir/build.make TP4/CMakeFiles/TP4_exo2_rotation.dir/exo2_rotation.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo2_rotation.dir/build.make TP4/CMakeFiles/TP4_exo2_rotation.dir/exo2_rotation.cpp.i
 .PHONY : exo2_rotation.cpp.i
 
 exo2_rotation.s: exo2_rotation.cpp.s
@@ -293,7 +293,7 @@ exo2_rotation.s: exo2_rotation.cpp.s
 
 # target to generate assembly for a file
 exo2_rotation.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo2_rotation.dir/build.make TP4/CMakeFiles/TP4_exo2_rotation.dir/exo2_rotation.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo2_rotation.dir/build.make TP4/CMakeFiles/TP4_exo2_rotation.dir/exo2_rotation.cpp.s
 .PHONY : exo2_rotation.cpp.s
 
 exo3_rotation_matrice.o: exo3_rotation_matrice.cpp.o
@@ -302,7 +302,7 @@ exo3_rotation_matrice.o: exo3_rotation_matrice.cpp.o
 
 # target to build an object file
 exo3_rotation_matrice.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build.make TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build.make TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.o
 .PHONY : exo3_rotation_matrice.cpp.o
 
 exo3_rotation_matrice.i: exo3_rotation_matrice.cpp.i
@@ -311,7 +311,7 @@ exo3_rotation_matrice.i: exo3_rotation_matrice.cpp.i
 
 # target to preprocess a source file
 exo3_rotation_matrice.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build.make TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build.make TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.i
 .PHONY : exo3_rotation_matrice.cpp.i
 
 exo3_rotation_matrice.s: exo3_rotation_matrice.cpp.s
@@ -320,7 +320,7 @@ exo3_rotation_matrice.s: exo3_rotation_matrice.cpp.s
 
 # target to generate assembly for a file
 exo3_rotation_matrice.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build.make TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/build.make TP4/CMakeFiles/TP4_exo3_rotation_matrice.dir/exo3_rotation_matrice.cpp.s
 .PHONY : exo3_rotation_matrice.cpp.s
 
 exo4_plusieur_triangles.o: exo4_plusieur_triangles.cpp.o
@@ -329,7 +329,7 @@ exo4_plusieur_triangles.o: exo4_plusieur_triangles.cpp.o
 
 # target to build an object file
 exo4_plusieur_triangles.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build.make TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/exo4_plusieur_triangles.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build.make TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/exo4_plusieur_triangles.cpp.o
 .PHONY : exo4_plusieur_triangles.cpp.o
 
 exo4_plusieur_triangles.i: exo4_plusieur_triangles.cpp.i
@@ -338,7 +338,7 @@ exo4_plusieur_triangles.i: exo4_plusieur_triangles.cpp.i
 
 # target to preprocess a source file
 exo4_plusieur_triangles.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build.make TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/exo4_plusieur_triangles.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build.make TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/exo4_plusieur_triangles.cpp.i
 .PHONY : exo4_plusieur_triangles.cpp.i
 
 exo4_plusieur_triangles.s: exo4_plusieur_triangles.cpp.s
@@ -347,7 +347,7 @@ exo4_plusieur_triangles.s: exo4_plusieur_triangles.cpp.s
 
 # target to generate assembly for a file
 exo4_plusieur_triangles.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build.make TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/exo4_plusieur_triangles.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/build.make TP4/CMakeFiles/TP4_exo4_plusieur_triangles.dir/exo4_plusieur_triangles.cpp.s
 .PHONY : exo4_plusieur_triangles.cpp.s
 
 exo5_texture.o: exo5_texture.cpp.o
@@ -356,7 +356,7 @@ exo5_texture.o: exo5_texture.cpp.o
 
 # target to build an object file
 exo5_texture.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo5_texture.dir/build.make TP4/CMakeFiles/TP4_exo5_texture.dir/exo5_texture.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo5_texture.dir/build.make TP4/CMakeFiles/TP4_exo5_texture.dir/exo5_texture.cpp.o
 .PHONY : exo5_texture.cpp.o
 
 exo5_texture.i: exo5_texture.cpp.i
@@ -365,7 +365,7 @@ exo5_texture.i: exo5_texture.cpp.i
 
 # target to preprocess a source file
 exo5_texture.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo5_texture.dir/build.make TP4/CMakeFiles/TP4_exo5_texture.dir/exo5_texture.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo5_texture.dir/build.make TP4/CMakeFiles/TP4_exo5_texture.dir/exo5_texture.cpp.i
 .PHONY : exo5_texture.cpp.i
 
 exo5_texture.s: exo5_texture.cpp.s
@@ -374,7 +374,7 @@ exo5_texture.s: exo5_texture.cpp.s
 
 # target to generate assembly for a file
 exo5_texture.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo5_texture.dir/build.make TP4/CMakeFiles/TP4_exo5_texture.dir/exo5_texture.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_exo5_texture.dir/build.make TP4/CMakeFiles/TP4_exo5_texture.dir/exo5_texture.cpp.s
 .PHONY : exo5_texture.cpp.s
 
 mandelbrot.o: mandelbrot.cpp.o
@@ -383,7 +383,7 @@ mandelbrot.o: mandelbrot.cpp.o
 
 # target to build an object file
 mandelbrot.cpp.o:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_mandelbrot.dir/build.make TP4/CMakeFiles/TP4_mandelbrot.dir/mandelbrot.cpp.o
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_mandelbrot.dir/build.make TP4/CMakeFiles/TP4_mandelbrot.dir/mandelbrot.cpp.o
 .PHONY : mandelbrot.cpp.o
 
 mandelbrot.i: mandelbrot.cpp.i
@@ -392,7 +392,7 @@ mandelbrot.i: mandelbrot.cpp.i
 
 # target to preprocess a source file
 mandelbrot.cpp.i:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_mandelbrot.dir/build.make TP4/CMakeFiles/TP4_mandelbrot.dir/mandelbrot.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_mandelbrot.dir/build.make TP4/CMakeFiles/TP4_mandelbrot.dir/mandelbrot.cpp.i
 .PHONY : mandelbrot.cpp.i
 
 mandelbrot.s: mandelbrot.cpp.s
@@ -401,7 +401,7 @@ mandelbrot.s: mandelbrot.cpp.s
 
 # target to generate assembly for a file
 mandelbrot.cpp.s:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_mandelbrot.dir/build.make TP4/CMakeFiles/TP4_mandelbrot.dir/mandelbrot.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_mandelbrot.dir/build.make TP4/CMakeFiles/TP4_mandelbrot.dir/mandelbrot.cpp.s
 .PHONY : mandelbrot.cpp.s
 
 # Help Target
@@ -451,6 +451,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

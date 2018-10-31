@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/olivier/Documents/openGL/GLImac-Template
+CMAKE_SOURCE_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/olivier/Documents/openGL/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build
 
 # Include any dependencies generated for this target.
 include TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/depend.make
@@ -58,17 +58,17 @@ include TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/progress.make
 include TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/flags.make
 
 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o: TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/flags.make
-TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o: /home/olivier/Documents/openGL/GLImac-Template/TP4Nico/exo2_triangleGenerique.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o"
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4Nico && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o -c /home/olivier/Documents/openGL/GLImac-Template/TP4Nico/exo2_triangleGenerique.cpp
+TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o: /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4Nico/exo2_triangleGenerique.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o"
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o -c /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4Nico/exo2_triangleGenerique.cpp
 
 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.i"
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4Nico && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olivier/Documents/openGL/GLImac-Template/TP4Nico/exo2_triangleGenerique.cpp > CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.i
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4Nico/exo2_triangleGenerique.cpp > CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.i
 
 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.s"
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4Nico && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olivier/Documents/openGL/GLImac-Template/TP4Nico/exo2_triangleGenerique.cpp -o CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.s
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4Nico/exo2_triangleGenerique.cpp -o CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.s
 
 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o.requires:
 
@@ -97,8 +97,8 @@ TP4Nico/TP4Nico_exo2_triangleGenerique: /usr/lib/x86_64-linux-gnu/libGL.so
 TP4Nico/TP4Nico_exo2_triangleGenerique: /usr/lib/x86_64-linux-gnu/libGLU.so
 TP4Nico/TP4Nico_exo2_triangleGenerique: /usr/lib/x86_64-linux-gnu/libGLEW.so
 TP4Nico/TP4Nico_exo2_triangleGenerique: TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olivier/Documents/openGL/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TP4Nico_exo2_triangleGenerique"
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4Nico && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TP4Nico_exo2_triangleGenerique"
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/build: TP4Nico/TP4Nico_exo2_triangleGenerique
@@ -110,10 +110,10 @@ TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/requires: TP4Nico/CMakeFil
 .PHONY : TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/requires
 
 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/clean:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build/TP4Nico && $(CMAKE_COMMAND) -P CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/cmake_clean.cmake
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico && $(CMAKE_COMMAND) -P CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/cmake_clean.cmake
 .PHONY : TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/clean
 
 TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/depend:
-	cd /home/olivier/Documents/openGL/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/olivier/Documents/openGL/GLImac-Template /home/olivier/Documents/openGL/GLImac-Template/TP4Nico /home/olivier/Documents/openGL/GLImac-Template-build /home/olivier/Documents/openGL/GLImac-Template-build/TP4Nico /home/olivier/Documents/openGL/GLImac-Template-build/TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4Nico /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/depend
 

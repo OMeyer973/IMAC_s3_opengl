@@ -1,4 +1,4 @@
-# Install script for directory: /home/olivier/Documents/openGL/GLImac-Template/TP_template
+# Install script for directory: /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP_template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
