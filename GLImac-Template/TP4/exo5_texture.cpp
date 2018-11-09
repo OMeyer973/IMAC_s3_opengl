@@ -3,7 +3,6 @@
 #include <glimac/FilePath.hpp>
 #include <glimac/Image.hpp>
 #include <GL/glew.h>
-#include <GL/glew.h>
 #include <iostream>
 
 using namespace glimac;
@@ -74,7 +73,7 @@ int main(int argc, char** argv) {
                                 applicationPath.dirPath() + "shaders/" + argv[2]);
     program.use(); // Indiquer a OpenGL de les utiliser
     
-    //bout de code pour obtenir l'emplacement de la variable uniforme "uTime" dans le shader
+    //bout de code pour obtenir l'emplacement de la variable uniforme "uModelMatrix" dans le shader
     GLint modelMatrixLocation = glGetUniformLocation(program.getGLId(), "uModelMatrix");
     //changement de la valeur de la variable uniforme
     glUniformMatrix3fv(modelMatrixLocation, 1, GL_FALSE,  glm::value_ptr(rotate(0)));

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP6_exo4_multi_texture.dir/exo4_multi_texture.cpp.o  -o TP6_exo4_multi_texture ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 

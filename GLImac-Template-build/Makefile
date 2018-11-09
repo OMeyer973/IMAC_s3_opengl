@@ -501,6 +501,32 @@ TP4Nico_exo1_triangleShader/fast:
 .PHONY : TP4Nico_exo1_triangleShader/fast
 
 #=============================================================================
+# Target rules for targets named TP6_exo4_multi_texture
+
+# Build rule for target.
+TP6_exo4_multi_texture: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo4_multi_texture
+.PHONY : TP6_exo4_multi_texture
+
+# fast build rule for target.
+TP6_exo4_multi_texture/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build
+.PHONY : TP6_exo4_multi_texture/fast
+
+#=============================================================================
+# Target rules for targets named TP6_exo3_texture
+
+# Build rule for target.
+TP6_exo3_texture: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo3_texture
+.PHONY : TP6_exo3_texture
+
+# fast build rule for target.
+TP6_exo3_texture/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo3_texture.dir/build.make TP6/CMakeFiles/TP6_exo3_texture.dir/build
+.PHONY : TP6_exo3_texture/fast
+
+#=============================================================================
 # Target rules for targets named TP6_exo1_sphere
 
 # Build rule for target.
@@ -616,6 +642,8 @@ help:
 	@echo "... TP4Nico_exo2_triangleGenerique"
 	@echo "... TP4Nico_SDLtemplate"
 	@echo "... TP4Nico_exo1_triangleShader"
+	@echo "... TP6_exo4_multi_texture"
+	@echo "... TP6_exo3_texture"
 	@echo "... TP6_exo1_sphere"
 	@echo "... TP6_exo2_lune"
 	@echo "... TP_template_SDLtemplate"

@@ -2,13 +2,14 @@
 #include <glimac/Program.hpp>
 #include <glimac/common.hpp>
 #include <glimac/Sphere.hpp>
+#include <glimac/Image.hpp>
 #include <GL/glew.h>
 #include <iostream>
 #include<glm/gtc/random.hpp>
 
 using namespace glimac;
 
-//cmake ../GLImac-Template && make && ./TP6/TP6_exo2_lune
+//cmake ../GLImac-Template && make && ./TP6/TP6_exo3_texture
 
 Sphere sphere(1, 32, 16);
 
@@ -31,6 +32,9 @@ int main(int argc, char** argv) {
      * INITIALIZATION CODE
      *********************************/
     
+    /////////////////////////
+    // ATTRIBUTS DES VERTEX
+
     // Création d'un seul VBO = contient les données
     GLuint vbo;
     glGenBuffers(1, &vbo);
@@ -73,15 +77,88 @@ int main(int argc, char** argv) {
     //Débindage
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
-
-
+    
+    ///////////////////////////////////
+    // SHADERS ET VARIABLES UNIFORMES
 
     // Charger et compiler les shaders
     FilePath applicationPath(argv[0]);
     Program program = loadProgram(applicationPath.dirPath() + "shaders/3D.vs.glsl",
-                                applicationPath.dirPath() + "shaders/normals.fs.glsl");
+                                applicationPath.dirPath() + "shaders/tex3D.fs.glsl");
     program.use(); // Indiquer a OpenGL de les utiliser
 
+
+    /////////////
+    // TEXTURES
+    
+    //chargement d'une texture par fichier en utilisant la classe image de glimac
+    const Image* earthMap  = ImageManager::loadImage("/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/assets/textures/EarthMap.jpg");
+    if (earthMap == NULL) {
+        std::cout << "Texture ptr is null. exit program." << std::endl;
+        return 0;
+    }
+
+    //création et binding d'un texture object
+    GLuint earthTexture;
+    glGenTextures(1, &earthTexture);
+
+    glBindTexture(GL_TEXTURE_2D, earthTexture);
+
+    glTexImage2D(
+        GL_TEXTURE_2D,          //GLenum target
+        0,                      //GLint level
+        GL_RGBA,                //GLint internalformat
+        earthMap->getWidth(),   //GLsizei width
+        earthMap->getHeight(),  //GLsizei height
+        0,                      //GLint border
+        GL_RGBA,                //GLenum format
+        GL_FLOAT,               //GLenum type
+        earthMap->getPixels()   //const GLvoid * data
+    );
+
+    //paramètres de filtrage de texture 
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+    glBindTexture(GL_TEXTURE_2D, 0);
+
+    //chargement d'une texture par fichier en utilisant la classe image de glimac
+    const Image* moonMap  = ImageManager::loadImage("/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/assets/textures/MoonMap.jpg");
+    if (moonMap == NULL) {
+        std::cout << "Texture ptr is null. exit program." << std::endl;
+        return 0;
+    }
+
+    //création et binding d'un texture object
+    GLuint moonTexture;
+    glGenTextures(1, &moonTexture);
+
+    glBindTexture(GL_TEXTURE_2D, moonTexture);
+
+    glTexImage2D(
+        GL_TEXTURE_2D,          //GLenum target
+        0,                      //GLint level
+        GL_RGBA,                //GLint internalformat
+        moonMap->getWidth(),   //GLsizei width
+        moonMap->getHeight(),  //GLsizei height
+        0,                      //GLint border
+        GL_RGBA,                //GLenum format
+        GL_FLOAT,               //GLenum type
+        moonMap->getPixels()   //const GLvoid * data
+    );
+
+    //paramètres de filtrage de texture 
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+    glBindTexture(GL_TEXTURE_2D, 0);
+
+    GLint textureLocation = glGetUniformLocation(program.getGLId(), "uTexture");
+    glUniform1i(textureLocation, 0);
+
+    ///////////////////////////////
+    // MATRICES DE TRANSFORMATION
+ 
     //on récupère les locations des variables uniformes dans les shaders
     GLint uMVPMatrixLocation = glGetUniformLocation(program.getGLId(), "uMVPMatrix");
     GLint uMVMatrix = glGetUniformLocation(program.getGLId(), "uMVMatrix");
@@ -125,18 +202,29 @@ int main(int argc, char** argv) {
         
         //calcul des view matrix, model matrix
         glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0.f, 0.f ,-5.f));
-        glm::mat4 NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
-        //on envoie les matrices à la CG dans les variables uniformes
-        glUniformMatrix4fv(uMVPMatrixLocation, 1, GL_FALSE,  glm::value_ptr(ProjMatrix * MVMatrix));
-        glUniformMatrix4fv(uMVMatrix, 1, GL_FALSE,  glm::value_ptr(MVMatrix));
-        glUniformMatrix4fv(uNormalMatrix, 1, GL_FALSE,  glm::value_ptr(NormalMatrix));
+        //matrice tmp pour faire tourner la terre
+        glm::mat4 tmpMVMatrix = glm::rotate(MVMatrix, windowManager.getTime(), glm::vec3(0, 1, 0)); 
+        glm::mat4 NormalMatrix = glm::transpose(glm::inverse(tmpMVMatrix));
 
+        //on envoie les matrices à la CG dans les variables uniformes
+        glUniformMatrix4fv(uMVPMatrixLocation, 1, GL_FALSE,  glm::value_ptr(ProjMatrix * tmpMVMatrix));
+        glUniformMatrix4fv(uMVMatrix, 1, GL_FALSE,  glm::value_ptr(tmpMVMatrix));
+        glUniformMatrix4fv(uNormalMatrix, 1, GL_FALSE,  glm::value_ptr(NormalMatrix));
+      
+
+        glBindTexture(GL_TEXTURE_2D, earthTexture);
         glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
+        glBindTexture(GL_TEXTURE_2D, 0);
+
+        glBindTexture(GL_TEXTURE_2D, moonTexture);
 
         for (size_t i=0; i<randomAxes.size(); ++i) {
-            
-            tmpMVMatrix = glm::rotate(MVMatrix, 2*glm::pi<float>()*(float)i/randomAxes.size(), glm::vec3(0,1,0)); //rotation équitable pour que les lunes soient bien écartées :)
+
+            //rotation équitable pour que les lunes soient bien écartées :)
+            tmpMVMatrix = glm::rotate(MVMatrix, 2*glm::pi<float>()*(float)i/randomAxes.size(), glm::vec3(0,1,0));
+            //rotation de la lune autours de son axe
             tmpMVMatrix = glm::rotate(tmpMVMatrix, windowManager.getTime(), randomAxes[i]); 
+            //écartement de la lune
             tmpMVMatrix = glm::translate(tmpMVMatrix, glm::vec3(-2, 0, 0));
             tmpMVMatrix = glm::scale(tmpMVMatrix, glm::vec3(0.2, 0.2, 0.2));
             tmpNormalMatrix = glm::transpose(glm::inverse(tmpMVMatrix));
@@ -148,6 +236,8 @@ int main(int argc, char** argv) {
 
             glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
         }
+
+        glBindTexture(GL_TEXTURE_2D, 0);
 
         glBindVertexArray(0);
 

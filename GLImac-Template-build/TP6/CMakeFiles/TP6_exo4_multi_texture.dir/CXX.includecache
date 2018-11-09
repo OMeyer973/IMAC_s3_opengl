@@ -6,18 +6,22 @@
 
 #IncludeRegexTransform: 
 
-/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4/exo5_texture.cpp
+/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP6/exo4_multi_texture.cpp
 glimac/SDLWindowManager.hpp
 -
 glimac/Program.hpp
 -
-glimac/FilePath.hpp
+glimac/common.hpp
+-
+glimac/Sphere.hpp
 -
 glimac/Image.hpp
 -
 GL/glew.h
 -
 iostream
+-
+glm/gtc/random.hpp
 -
 
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/include/glimac/FilePath.hpp
@@ -60,6 +64,18 @@ string
 FilePath.hpp
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/include/glimac/FilePath.hpp
 
+/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/include/glimac/Sphere.hpp
+vector
+-
+common.hpp
+/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/include/glimac/common.hpp
+
+/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/include/glimac/common.hpp
+GL/glew.h
+-
+glm.hpp
+/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/include/glimac/glm.hpp
+
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/include/glimac/glm.hpp
 glm/glm.hpp
 -
@@ -73,10 +89,6 @@ glm/gtx/io.hpp
 -
 glm/gtc/random.hpp
 -
-
-/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/third-party/include/glm/common.hpp
-detail/func_common.hpp
-/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/third-party/include/glm/detail/func_common.hpp
 
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/third-party/include/glm/detail/_fixes.hpp
 cmath

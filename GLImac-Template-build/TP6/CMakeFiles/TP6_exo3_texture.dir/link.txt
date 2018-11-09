@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP6_exo3_texture.dir/exo3_texture.cpp.o  -o TP6_exo3_texture ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 

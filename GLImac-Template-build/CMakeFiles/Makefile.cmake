@@ -99,6 +99,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP4Nico/CMakeFiles/TP4Nico_exo2_triangleGenerique.dir/DependInfo.cmake"
   "TP4Nico/CMakeFiles/TP4Nico_SDLtemplate.dir/DependInfo.cmake"
   "TP4Nico/CMakeFiles/TP4Nico_exo1_triangleShader.dir/DependInfo.cmake"
+  "TP6/CMakeFiles/TP6_exo4_multi_texture.dir/DependInfo.cmake"
+  "TP6/CMakeFiles/TP6_exo3_texture.dir/DependInfo.cmake"
   "TP6/CMakeFiles/TP6_exo1_sphere.dir/DependInfo.cmake"
   "TP6/CMakeFiles/TP6_exo2_lune.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"

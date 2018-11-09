@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
+.PHONY : TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
+
+# Convenience name for target.
+TP6_exo4_multi_texture: TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
+
+.PHONY : TP6_exo4_multi_texture
+
+# fast build rule for target.
+TP6_exo4_multi_texture/fast:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build
+.PHONY : TP6_exo4_multi_texture/fast
+
+# Convenience name for target.
+TP6/CMakeFiles/TP6_exo3_texture.dir/rule:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo3_texture.dir/rule
+.PHONY : TP6/CMakeFiles/TP6_exo3_texture.dir/rule
+
+# Convenience name for target.
+TP6_exo3_texture: TP6/CMakeFiles/TP6_exo3_texture.dir/rule
+
+.PHONY : TP6_exo3_texture
+
+# fast build rule for target.
+TP6_exo3_texture/fast:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo3_texture.dir/build.make TP6/CMakeFiles/TP6_exo3_texture.dir/build
+.PHONY : TP6_exo3_texture/fast
+
+# Convenience name for target.
 TP6/CMakeFiles/TP6_exo1_sphere.dir/rule:
 	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo1_sphere.dir/rule
 .PHONY : TP6/CMakeFiles/TP6_exo1_sphere.dir/rule
@@ -194,6 +224,60 @@ exo2_lune.cpp.s:
 	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/exo2_lune.cpp.s
 .PHONY : exo2_lune.cpp.s
 
+exo3_texture.o: exo3_texture.cpp.o
+
+.PHONY : exo3_texture.o
+
+# target to build an object file
+exo3_texture.cpp.o:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo3_texture.dir/build.make TP6/CMakeFiles/TP6_exo3_texture.dir/exo3_texture.cpp.o
+.PHONY : exo3_texture.cpp.o
+
+exo3_texture.i: exo3_texture.cpp.i
+
+.PHONY : exo3_texture.i
+
+# target to preprocess a source file
+exo3_texture.cpp.i:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo3_texture.dir/build.make TP6/CMakeFiles/TP6_exo3_texture.dir/exo3_texture.cpp.i
+.PHONY : exo3_texture.cpp.i
+
+exo3_texture.s: exo3_texture.cpp.s
+
+.PHONY : exo3_texture.s
+
+# target to generate assembly for a file
+exo3_texture.cpp.s:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo3_texture.dir/build.make TP6/CMakeFiles/TP6_exo3_texture.dir/exo3_texture.cpp.s
+.PHONY : exo3_texture.cpp.s
+
+exo4_multi_texture.o: exo4_multi_texture.cpp.o
+
+.PHONY : exo4_multi_texture.o
+
+# target to build an object file
+exo4_multi_texture.cpp.o:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/exo4_multi_texture.cpp.o
+.PHONY : exo4_multi_texture.cpp.o
+
+exo4_multi_texture.i: exo4_multi_texture.cpp.i
+
+.PHONY : exo4_multi_texture.i
+
+# target to preprocess a source file
+exo4_multi_texture.cpp.i:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/exo4_multi_texture.cpp.i
+.PHONY : exo4_multi_texture.cpp.i
+
+exo4_multi_texture.s: exo4_multi_texture.cpp.s
+
+.PHONY : exo4_multi_texture.s
+
+# target to generate assembly for a file
+exo4_multi_texture.cpp.s:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/exo4_multi_texture.cpp.s
+.PHONY : exo4_multi_texture.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,6 +286,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... TP6_exo4_multi_texture"
+	@echo "... TP6_exo3_texture"
 	@echo "... TP6_exo1_sphere"
 	@echo "... TP6_exo2_lune"
 	@echo "... exo1_sphere.o"
@@ -210,6 +296,12 @@ help:
 	@echo "... exo2_lune.o"
 	@echo "... exo2_lune.i"
 	@echo "... exo2_lune.s"
+	@echo "... exo3_texture.o"
+	@echo "... exo3_texture.i"
+	@echo "... exo3_texture.s"
+	@echo "... exo4_multi_texture.o"
+	@echo "... exo4_multi_texture.i"
+	@echo "... exo4_multi_texture.s"
 .PHONY : help
 
 
