@@ -187,8 +187,8 @@ int main(int argc, char** argv) {
 
     glBindTexture(GL_TEXTURE_2D, 0);
 
-    GLint textureLocation = glGetUniformLocation(program.getGLId(), "uTexture");
-    GLint secondTextureLocation = glGetUniformLocation(program.getGLId(), "uSecondTexture");
+    GLint textureLocation = glGetUniformLocation(program.getGLId(), "uEarthTexture");
+    GLint secondTextureLocation = glGetUniformLocation(program.getGLId(), "uCloudTexture");
   
     ///////////////////////////////
     // MATRICES DE TRANSFORMATION
@@ -248,11 +248,14 @@ int main(int argc, char** argv) {
 
         glActiveTexture(GL_TEXTURE0);
         glUniform1i(textureLocation, 0);
-        glBindTexture(GL_TEXTURE_2D, earthTexture); // la texture earthTexture est bindée sur l'unité GL_TEXTURE0
+        // la texture earthTexture est bindée sur l'unité GL_TEXTURE0
+        glBindTexture(GL_TEXTURE_2D, earthTexture);
 
         glActiveTexture(GL_TEXTURE1);
-        glUniform1i(secondTextureLocation, 1); //le 1 doit être différent du 0 de la première texture map
-        glBindTexture(GL_TEXTURE_2D, cloudTexture); // la texture cloudTexture est bindée sur l'unité GL_TEXTURE1
+        // le 1 doit être différent du 0 de la première texture map
+        glUniform1i(secondTextureLocation, 1); 
+        // la texture cloudTexture est bindée sur l'unité GL_TEXTURE1
+        glBindTexture(GL_TEXTURE_2D, cloudTexture);
 
         glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
         

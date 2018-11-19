@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP7_exo1_trackball_cam.dir/exo1_trackball_cam.cpp.o  -o TP7_exo1_trackball_cam ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 

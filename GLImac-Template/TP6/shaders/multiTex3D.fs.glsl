@@ -1,7 +1,7 @@
 #version 330 core
 
-uniform sampler2D uTexture;
-uniform sampler2D uSecondTexture;
+uniform sampler2D uEarthTexture;
+uniform sampler2D uCloudTexture;
 
 //position du fragment sur l'écran
 in  vec4 vFragPosition;
@@ -13,8 +13,8 @@ in  vec2 vFragTexCoords;
 out vec3 fFragColor;
 
 void main() {	
-	fFragColor = texture(uTexture, vFragTexCoords).xyz
-			   + texture(uSecondTexture, vFragTexCoords).xyz;
+	fFragColor = texture(uEarthTexture, vFragTexCoords).xyz
+			   + texture(uCloudTexture, vFragTexCoords).xyz;
 
 	//fFragColor = normalize(vFragNormal.xyz);
 };

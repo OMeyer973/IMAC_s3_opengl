@@ -111,19 +111,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule:
-	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
-.PHONY : TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
+TP6/CMakeFiles/TP6_exo2_lune.dir/rule:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+.PHONY : TP6/CMakeFiles/TP6_exo2_lune.dir/rule
 
 # Convenience name for target.
-TP6_exo4_multi_texture: TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
+TP6_exo2_lune: TP6/CMakeFiles/TP6_exo2_lune.dir/rule
 
-.PHONY : TP6_exo4_multi_texture
+.PHONY : TP6_exo2_lune
 
 # fast build rule for target.
-TP6_exo4_multi_texture/fast:
-	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build
-.PHONY : TP6_exo4_multi_texture/fast
+TP6_exo2_lune/fast:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/build
+.PHONY : TP6_exo2_lune/fast
+
+# Convenience name for target.
+TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/rule:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/rule
+.PHONY : TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/rule
+
+# Convenience name for target.
+TP6_exo5_multi_shaders: TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/rule
+
+.PHONY : TP6_exo5_multi_shaders
+
+# fast build rule for target.
+TP6_exo5_multi_shaders/fast:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build
+.PHONY : TP6_exo5_multi_shaders/fast
 
 # Convenience name for target.
 TP6/CMakeFiles/TP6_exo3_texture.dir/rule:
@@ -156,19 +171,19 @@ TP6_exo1_sphere/fast:
 .PHONY : TP6_exo1_sphere/fast
 
 # Convenience name for target.
-TP6/CMakeFiles/TP6_exo2_lune.dir/rule:
-	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo2_lune.dir/rule
-.PHONY : TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
+.PHONY : TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
 
 # Convenience name for target.
-TP6_exo2_lune: TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+TP6_exo4_multi_texture: TP6/CMakeFiles/TP6_exo4_multi_texture.dir/rule
 
-.PHONY : TP6_exo2_lune
+.PHONY : TP6_exo4_multi_texture
 
 # fast build rule for target.
-TP6_exo2_lune/fast:
-	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/build
-.PHONY : TP6_exo2_lune/fast
+TP6_exo4_multi_texture/fast:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build
+.PHONY : TP6_exo4_multi_texture/fast
 
 exo1_sphere.o: exo1_sphere.cpp.o
 
@@ -278,6 +293,33 @@ exo4_multi_texture.cpp.s:
 	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/exo4_multi_texture.cpp.s
 .PHONY : exo4_multi_texture.cpp.s
 
+exo5_multi_shaders.o: exo5_multi_shaders.cpp.o
+
+.PHONY : exo5_multi_shaders.o
+
+# target to build an object file
+exo5_multi_shaders.cpp.o:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/exo5_multi_shaders.cpp.o
+.PHONY : exo5_multi_shaders.cpp.o
+
+exo5_multi_shaders.i: exo5_multi_shaders.cpp.i
+
+.PHONY : exo5_multi_shaders.i
+
+# target to preprocess a source file
+exo5_multi_shaders.cpp.i:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/exo5_multi_shaders.cpp.i
+.PHONY : exo5_multi_shaders.cpp.i
+
+exo5_multi_shaders.s: exo5_multi_shaders.cpp.s
+
+.PHONY : exo5_multi_shaders.s
+
+# target to generate assembly for a file
+exo5_multi_shaders.cpp.s:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/exo5_multi_shaders.cpp.s
+.PHONY : exo5_multi_shaders.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -285,11 +327,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... TP6_exo4_multi_texture"
+	@echo "... TP6_exo2_lune"
+	@echo "... TP6_exo5_multi_shaders"
 	@echo "... TP6_exo3_texture"
 	@echo "... TP6_exo1_sphere"
-	@echo "... TP6_exo2_lune"
+	@echo "... TP6_exo4_multi_texture"
+	@echo "... edit_cache"
 	@echo "... exo1_sphere.o"
 	@echo "... exo1_sphere.i"
 	@echo "... exo1_sphere.s"
@@ -302,6 +345,9 @@ help:
 	@echo "... exo4_multi_texture.o"
 	@echo "... exo4_multi_texture.i"
 	@echo "... exo4_multi_texture.s"
+	@echo "... exo5_multi_shaders.o"
+	@echo "... exo5_multi_shaders.i"
+	@echo "... exo5_multi_shaders.s"
 .PHONY : help
 
 

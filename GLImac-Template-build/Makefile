@@ -501,17 +501,30 @@ TP4Nico_exo1_triangleShader/fast:
 .PHONY : TP4Nico_exo1_triangleShader/fast
 
 #=============================================================================
-# Target rules for targets named TP6_exo4_multi_texture
+# Target rules for targets named TP6_exo2_lune
 
 # Build rule for target.
-TP6_exo4_multi_texture: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo4_multi_texture
-.PHONY : TP6_exo4_multi_texture
+TP6_exo2_lune: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo2_lune
+.PHONY : TP6_exo2_lune
 
 # fast build rule for target.
-TP6_exo4_multi_texture/fast:
-	$(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build
-.PHONY : TP6_exo4_multi_texture/fast
+TP6_exo2_lune/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/build
+.PHONY : TP6_exo2_lune/fast
+
+#=============================================================================
+# Target rules for targets named TP6_exo5_multi_shaders
+
+# Build rule for target.
+TP6_exo5_multi_shaders: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo5_multi_shaders
+.PHONY : TP6_exo5_multi_shaders
+
+# fast build rule for target.
+TP6_exo5_multi_shaders/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build
+.PHONY : TP6_exo5_multi_shaders/fast
 
 #=============================================================================
 # Target rules for targets named TP6_exo3_texture
@@ -540,17 +553,43 @@ TP6_exo1_sphere/fast:
 .PHONY : TP6_exo1_sphere/fast
 
 #=============================================================================
-# Target rules for targets named TP6_exo2_lune
+# Target rules for targets named TP6_exo4_multi_texture
 
 # Build rule for target.
-TP6_exo2_lune: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo2_lune
-.PHONY : TP6_exo2_lune
+TP6_exo4_multi_texture: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo4_multi_texture
+.PHONY : TP6_exo4_multi_texture
 
 # fast build rule for target.
-TP6_exo2_lune/fast:
-	$(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/build
-.PHONY : TP6_exo2_lune/fast
+TP6_exo4_multi_texture/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texture.dir/build
+.PHONY : TP6_exo4_multi_texture/fast
+
+#=============================================================================
+# Target rules for targets named TP7_exo1_trackball_cam
+
+# Build rule for target.
+TP7_exo1_trackball_cam: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP7_exo1_trackball_cam
+.PHONY : TP7_exo1_trackball_cam
+
+# fast build rule for target.
+TP7_exo1_trackball_cam/fast:
+	$(MAKE) -f TP7/CMakeFiles/TP7_exo1_trackball_cam.dir/build.make TP7/CMakeFiles/TP7_exo1_trackball_cam.dir/build
+.PHONY : TP7_exo1_trackball_cam/fast
+
+#=============================================================================
+# Target rules for targets named TP7_exo2_freefly_cam
+
+# Build rule for target.
+TP7_exo2_freefly_cam: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP7_exo2_freefly_cam
+.PHONY : TP7_exo2_freefly_cam
+
+# fast build rule for target.
+TP7_exo2_freefly_cam/fast:
+	$(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_cam.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_cam.dir/build
+.PHONY : TP7_exo2_freefly_cam/fast
 
 #=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
@@ -642,10 +681,13 @@ help:
 	@echo "... TP4Nico_exo2_triangleGenerique"
 	@echo "... TP4Nico_SDLtemplate"
 	@echo "... TP4Nico_exo1_triangleShader"
-	@echo "... TP6_exo4_multi_texture"
+	@echo "... TP6_exo2_lune"
+	@echo "... TP6_exo5_multi_shaders"
 	@echo "... TP6_exo3_texture"
 	@echo "... TP6_exo1_sphere"
-	@echo "... TP6_exo2_lune"
+	@echo "... TP6_exo4_multi_texture"
+	@echo "... TP7_exo1_trackball_cam"
+	@echo "... TP7_exo2_freefly_cam"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_foo"
 	@echo "... TPgarbage_SDLtemplate"

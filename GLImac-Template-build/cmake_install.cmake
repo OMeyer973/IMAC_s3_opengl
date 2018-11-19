@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4/cmake_install.cmake")
   include("/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP4Nico/cmake_install.cmake")
   include("/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP6/cmake_install.cmake")
+  include("/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP7/cmake_install.cmake")
   include("/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP_template/cmake_install.cmake")
   include("/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TPgarbage/cmake_install.cmake")
 
