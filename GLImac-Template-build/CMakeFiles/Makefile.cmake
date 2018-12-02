@@ -19,6 +19,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP4Nico/CMakeLists.txt"
   "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP6/CMakeLists.txt"
   "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP7/CMakeLists.txt"
+  "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP8/CMakeLists.txt"
   "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TP_template/CMakeLists.txt"
   "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/TPgarbage/CMakeLists.txt"
   "/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template/glimac/CMakeLists.txt"
@@ -65,6 +66,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "TP4Nico/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP7/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TP8/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP_template/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TPgarbage/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -108,6 +110,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP6/CMakeFiles/TP6_exo4_multi_texture.dir/DependInfo.cmake"
   "TP7/CMakeFiles/TP7_exo1_trackball_cam.dir/DependInfo.cmake"
   "TP7/CMakeFiles/TP7_exo2_freefly_cam.dir/DependInfo.cmake"
+  "TP8/CMakeFiles/TP8_exo1_directional_light.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   "TPgarbage/CMakeFiles/TPgarbage_foo.dir/DependInfo.cmake"
   "TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/DependInfo.cmake"

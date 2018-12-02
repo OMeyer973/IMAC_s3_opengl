@@ -53,6 +53,9 @@
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP7/CMakeFiles/rebuild_cache.dir
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP7/CMakeFiles/TP7_exo1_trackball_cam.dir
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP7/CMakeFiles/TP7_exo2_freefly_cam.dir
+/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP8/CMakeFiles/rebuild_cache.dir
+/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP8/CMakeFiles/TP8_exo1_directional_light.dir
+/home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP8/CMakeFiles/edit_cache.dir
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir
 /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build/TP_template/CMakeFiles/edit_cache.dir

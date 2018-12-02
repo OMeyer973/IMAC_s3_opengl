@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP8_exo1_directional_light.dir/exo1_directional_light.cpp.o  -o TP8_exo1_directional_light ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 
