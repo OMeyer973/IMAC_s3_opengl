@@ -605,6 +605,19 @@ TP8_exo1_directional_light/fast:
 .PHONY : TP8_exo1_directional_light/fast
 
 #=============================================================================
+# Target rules for targets named TP8_exo2_point_light
+
+# Build rule for target.
+TP8_exo2_point_light: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP8_exo2_point_light
+.PHONY : TP8_exo2_point_light
+
+# fast build rule for target.
+TP8_exo2_point_light/fast:
+	$(MAKE) -f TP8/CMakeFiles/TP8_exo2_point_light.dir/build.make TP8/CMakeFiles/TP8_exo2_point_light.dir/build
+.PHONY : TP8_exo2_point_light/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -702,6 +715,7 @@ help:
 	@echo "... TP7_exo1_trackball_cam"
 	@echo "... TP7_exo2_freefly_cam"
 	@echo "... TP8_exo1_directional_light"
+	@echo "... TP8_exo2_point_light"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_foo"
 	@echo "... TPgarbage_SDLtemplate"

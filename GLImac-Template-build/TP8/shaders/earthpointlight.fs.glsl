@@ -10,7 +10,8 @@ uniform vec3 uLightPos_vs;
 uniform vec3 uLightIntensity;
 
 //texture variables
-uniform sampler2D uTexture;
+uniform sampler2D uEarthTexture;
+uniform sampler2D uCloudTexture;
 
 //position du fragment sur l'écran
 in  vec4 vPosition_vs;
@@ -20,7 +21,6 @@ in  vec4 vFragNormal;
 in  vec2 vFragTexCoords;
 
 out vec3 fFragColor;
-
 
 
 vec3 blinnPhong() {
@@ -38,8 +38,12 @@ vec3 blinnPhong() {
 		);
 }
 
-void main() {
-	fFragColor = blinnPhong() * texture(uTexture, vFragTexCoords).xyz;
+void main() {	
+	fFragColor = 
+		blinnPhong() * (
+		      texture(uEarthTexture, vFragTexCoords).xyz
+			+ texture(uCloudTexture, vFragTexCoords).xyz
+	    );
 
 	//fFragColor = normalize(vFragNormal.xyz);
 };

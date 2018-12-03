@@ -125,6 +125,21 @@ TP8_exo1_directional_light/fast:
 	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP8/CMakeFiles/TP8_exo1_directional_light.dir/build.make TP8/CMakeFiles/TP8_exo1_directional_light.dir/build
 .PHONY : TP8_exo1_directional_light/fast
 
+# Convenience name for target.
+TP8/CMakeFiles/TP8_exo2_point_light.dir/rule:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP8/CMakeFiles/TP8_exo2_point_light.dir/rule
+.PHONY : TP8/CMakeFiles/TP8_exo2_point_light.dir/rule
+
+# Convenience name for target.
+TP8_exo2_point_light: TP8/CMakeFiles/TP8_exo2_point_light.dir/rule
+
+.PHONY : TP8_exo2_point_light
+
+# fast build rule for target.
+TP8_exo2_point_light/fast:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP8/CMakeFiles/TP8_exo2_point_light.dir/build.make TP8/CMakeFiles/TP8_exo2_point_light.dir/build
+.PHONY : TP8_exo2_point_light/fast
+
 exo1_directional_light.o: exo1_directional_light.cpp.o
 
 .PHONY : exo1_directional_light.o
@@ -152,6 +167,33 @@ exo1_directional_light.cpp.s:
 	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP8/CMakeFiles/TP8_exo1_directional_light.dir/build.make TP8/CMakeFiles/TP8_exo1_directional_light.dir/exo1_directional_light.cpp.s
 .PHONY : exo1_directional_light.cpp.s
 
+exo2_point_light.o: exo2_point_light.cpp.o
+
+.PHONY : exo2_point_light.o
+
+# target to build an object file
+exo2_point_light.cpp.o:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP8/CMakeFiles/TP8_exo2_point_light.dir/build.make TP8/CMakeFiles/TP8_exo2_point_light.dir/exo2_point_light.cpp.o
+.PHONY : exo2_point_light.cpp.o
+
+exo2_point_light.i: exo2_point_light.cpp.i
+
+.PHONY : exo2_point_light.i
+
+# target to preprocess a source file
+exo2_point_light.cpp.i:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP8/CMakeFiles/TP8_exo2_point_light.dir/build.make TP8/CMakeFiles/TP8_exo2_point_light.dir/exo2_point_light.cpp.i
+.PHONY : exo2_point_light.cpp.i
+
+exo2_point_light.s: exo2_point_light.cpp.s
+
+.PHONY : exo2_point_light.s
+
+# target to generate assembly for a file
+exo2_point_light.cpp.s:
+	cd /home/olivier/Documents/IMAC_s3_opengl/GLImac-Template-build && $(MAKE) -f TP8/CMakeFiles/TP8_exo2_point_light.dir/build.make TP8/CMakeFiles/TP8_exo2_point_light.dir/exo2_point_light.cpp.s
+.PHONY : exo2_point_light.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,11 +201,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... TP8_exo1_directional_light"
 	@echo "... edit_cache"
+	@echo "... TP8_exo1_directional_light"
+	@echo "... TP8_exo2_point_light"
 	@echo "... exo1_directional_light.o"
 	@echo "... exo1_directional_light.i"
 	@echo "... exo1_directional_light.s"
+	@echo "... exo2_point_light.o"
+	@echo "... exo2_point_light.i"
+	@echo "... exo2_point_light.s"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP8_exo2_point_light.dir/exo2_point_light.cpp.o  -o TP8_exo2_point_light ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 

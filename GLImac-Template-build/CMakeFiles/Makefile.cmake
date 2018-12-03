@@ -111,6 +111,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP7/CMakeFiles/TP7_exo1_trackball_cam.dir/DependInfo.cmake"
   "TP7/CMakeFiles/TP7_exo2_freefly_cam.dir/DependInfo.cmake"
   "TP8/CMakeFiles/TP8_exo1_directional_light.dir/DependInfo.cmake"
+  "TP8/CMakeFiles/TP8_exo2_point_light.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   "TPgarbage/CMakeFiles/TPgarbage_foo.dir/DependInfo.cmake"
   "TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/DependInfo.cmake"
