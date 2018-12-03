@@ -186,7 +186,7 @@ int main(int argc, char** argv) {
     
     Light sunLight(glm::vec3(0.333,0.333,0.333), glm::vec3(1,1,1));
     Material earthMat(glm::vec3(0.7,0.7,0.7), glm::vec3 (0.3,0.3,0.3), 10);
-    Material moonMat(glm::vec3(0.9,0.1,0.2), glm::vec3 (0.1,0.9,0.2), 10);
+    Material moonMat(glm::vec3(0.2,0.1,0.1), glm::vec3 (0.1,0.2,0.1), 1);
     
     ///////////////////////////////////
         // SHADERS ET VARIABLES UNIFORMES
